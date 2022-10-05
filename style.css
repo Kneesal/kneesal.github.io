@@ -1,0 +1,60 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+
+/*  Background image making it fill the whole browser page, take from: https://css-tricks.com/perfect-full-page-background-image/ */
+ 
+  background: url(fellowship.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+}   
+
+hr {
+    margin: 20px auto;
+    color: #F05F44;
+    border: 3px solid #F05F44;
+    max-width: 65px;
+    opacity: 1;
+}
+
+.buffer {
+  height: 10rem;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #ffffff;
+  background-color: #03020263;
+}
+
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+  transition: all 300ms;
+}
+
+.btn-primary {
+  background-color: #f05f44;
+  border-color: #f05f44;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+  border-radius: 300px;
+ 
+}
+
+.btn-xl:hover {
+
+  background-color: darkgrey;
+  border-color: darkgrey;
+  transform: scale(1.3);
+}
